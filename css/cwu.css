@@ -1,0 +1,372 @@
+/* Gaya untuk semua teks dengan font Poppins */
+
+body {
+  background: linear-gradient(
+    219deg,
+    #18605d 27.6%,
+    rgba(255, 255, 255, 0.5) 109.53%
+  );
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+/* header */
+/* header */
+/* header */
+
+.header {
+  display: flex;
+  justify-content: space-between;
+  background-color: #18605d;
+  color: #fff;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo img {
+  width: 100px;
+  height: 100px;
+  margin-right: 10px;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  align-items: end;
+}
+
+.menu li {
+  display: inline;
+  margin-right: 20px;
+}
+
+.menu a {
+  text-decoration: none;
+  color: #fff;
+}
+
+.menu .home {
+  background-color: #18605d;
+  border: 1px solid #ffffff;
+  color: #fff;
+  padding: 8px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+.menu .cwu {
+  background-color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.menu .ot {
+  background-color: #000000;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  color: #fff;
+  padding: 10px 15px;
+  cursor: pointer;
+  border-radius: 15px;
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+}
+
+.search {
+  display: flex;
+  align-items: center;
+}
+
+.search a {
+  text-decoration: none;
+}
+
+.search input[type="text"] {
+  padding: 4px;
+  border: none;
+  border-radius: 5px;
+}
+
+.search button {
+  background-color: #18605d;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  padding: 5px 10px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+
+/* footer */
+/* footer */
+/* footer */
+
+.footerpenjelasan {
+  list-style: none;
+}
+
+.footerr {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px;
+  background-color: #18605d;
+  color: #fff;
+}
+
+.footerr .sosmed {
+  margin-right: 120px;
+}
+
+.footerr li h1 {
+  display: flex;
+  width: 300px;
+  height: 50px;
+  flex-direction: column;
+  justify-content: center;
+  color: #000;
+  text-align: justify;
+  font-family: Inder;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.footerr .sosmed img {
+  width: 30px;
+  height: 30px;
+}
+
+.footerr .imgpenjelasan {
+  width: 150px;
+  height: 150px;
+  margin-left: 70px;
+}
+
+.feedback {
+  text-align: center;
+}
+
+.feedback li {
+  list-style-type: none;
+  font-size: 50px;
+}
+
+.sosmed li {
+  list-style: none;
+  color: #fff;
+  text-align: justify;
+  font-family: Inder;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.sosmed .sosialm {
+  width: 40px;
+  height: 40px;
+  margin-right: 20px;
+}
+
+.sosmed li {
+  margin-top: 30px;
+}
+
+.feedback-form label {
+  display: block;
+  margin-bottom: 5px;
+  color: #fff;
+}
+
+.feedback-form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+  resize: none;
+}
+
+.feedback-form button {
+  background-color: #18605d;
+  border: 1px solid #ffffff;
+  color: #fff;
+  padding: 10px 20px;
+  cursor: pointer;
+  border-radius: 15px;
+}
+
+/* main */
+/* main */
+/* main */
+
+/* sample */
+main .pembuka {
+  display: flex;
+  align-items: center;
+}
+
+main .forbg {
+  align-items: center;
+  width: 1000px;
+  height: 400px;
+  flex-shrink: 0;
+  border-radius: 10px;
+  background: rgba(144, 171, 134, 0.7);
+  margin-left: 20px;
+}
+
+.btnselengkapnya {
+  padding: 0px 100px 150px 10px;
+}
+
+.btn1selengkapnya {
+  text-align: center;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+.selengkapnya {
+  padding: 20px 60px;
+  background-color: #18605d;
+  color: #fff;
+  border-radius: 10px;
+  font-size: 24px;
+}
+
+/* Gaya untuk video container */
+.video-container {
+  display: flex;
+  flex-direction: column; /* Mengubah arah tata letak ke vertikal (kolom) */
+  align-items: flex-start; /* Menyusun elemen ke sisi kiri */
+  margin-bottom: 0px;
+}
+
+/* Gaya untuk video wrapper */
+.video-wrapper {
+  margin-top: -20px; /* Menambahkan jarak di atas video */
+  display: flex;
+  justify-content: space-between; /* Menyusun elemen ke sisi kanan dan kiri */
+  align-items: center; /* Menyusun elemen secara vertikal di tengah */
+}
+
+/* Gaya untuk tulisan "Selengkapnya" dan kotak berwarna hitam dengan sudut radius 20 */
+.poppins-link {
+  text-decoration: none;
+  color: #ffffff;
+  /* Menghapus properti font-weight agar tidak bold */
+  position: relative; /* Mengubah posisi menjadi relatif */
+  z-index: 1; /* Menetapkan tingkat kedalaman elemen */
+  display: flex; /* Menggunakan flexbox */
+  justify-content: center; /* Menyusun elemen di tengah secara horizontal */
+  align-items: center; /* Menyusun elemen di tengah secara vertikal */
+
+  /* Mengatur ukuran font */
+  font-size: 14px; /* Ganti dengan ukuran font yang diinginkan */
+}
+
+/* Gaya untuk tulisan "Selengkapnya" dan kotak berwarna hitam dengan sudut radius 20 */
+.poppins-link {
+  text-decoration: none;
+  color: #ffffff;
+  position: relative;
+  z-index: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1em; /* Menggunakan unit em untuk ukuran font */
+
+  /* Mengatur padding menggunakan unit em */
+  padding: 0.8em 1.6em;
+
+  /* Sesuaikan nilai margin-top sesuai kebutuhan untuk menggeser ke bawah */
+  margin-top: 0.5em;
+
+  /* Sesuaikan nilai margin-left sesuai kebutuhan */
+  margin-left: 20em;
+}
+
+/* Gaya untuk kotak berwarna hitam dengan sudut radius 20 */
+.poppins-link::after {
+  content: "";
+  display: block;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background-color: #000000;
+  border-radius: 0.5em; /* Menggunakan unit em untuk sudut radius */
+  opacity: 1;
+  z-index: -1;
+
+  /* Mengatur ukuran panjang dan lebar kotak menggunakan unit em */
+  width: 10em;
+  height: 2em;
+  margin: auto;
+}
+
+/* Tautan "Selengkapnya" untuk playlist YouTube */
+.playlist-link {
+  margin-top: 10em; /* Sesuaikan nilai margin-top sesuai kebutuhan untuk menggeser ke bawah */
+  margin-bottom: 10em;
+  margin-left: -15em; /* Sesuaikan nilai margin-left sesuai kebutuhan */
+}
+
+/* Gaya untuk teks "REKOMENDASI..." */
+
+iframe {
+  margin-left: 40px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+.pembukaberita {
+  margin-left: 30px;
+  display: flex;
+  align-items: center;
+  width: 95%;
+  border-radius: 10px;
+  background: #18605d;
+}
+
+main .teksberita1 {
+  margin-left: 50px;
+  width: 70%;
+  color: #ffffff;
+  font-size: 26px;
+}
+
+main .teksdate {
+  margin-left: 50px;
+  width: 85%;
+  color: #ffffff;
+  font-style: normal;
+}
+
+.btnselengkapnya {
+  margin-top: 20px;
+  margin-left: 40px;
+}
+
+.selengkapnya {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.selengkapnya:hover {
+  background-color: rgb(74, 136, 134);
+}
