@@ -201,7 +201,7 @@ body {
     cursor: pointer;
     border-radius: 15px;
   }
-
+  
   .menu .home.active,
   .menu .newsid.active,
   .menu .newsen.active {

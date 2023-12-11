@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -139,19 +139,18 @@
               <img src="dokumentasi/Mental (2).png" alt="Logo" class="imgpenjelasan">
             </li>
             <li>
-              <h1>Tim kami terdiri dari profesional kesehatan mental, penulis medis, dan individu yang peduli dengan kesehatan mental. Semua anggota tim kami berkomitmen untuk menyediakan informasi dan sumber daya yang berguna untuk membantu Anda atau orang yang Anda cintai dalam merawat kesehatan mental mereka.</h1>
+              <h1>Tim kami terdiri dari profesional kesehatan mental dan individu yang peduli terhadap kesehatan mental. Semua anggota tim kami berkomitmen untuk menyediakan informasi dan sumber daya yang berguna untuk membantu Anda atau orang yang Anda cintai dalam merawat kesehatan mental mereka.</h1>
             </li>
           </ul>
         </div>
         <div class="center-section">
           <div class="feedback-form">
-              <h3>Berikan Feedback</h3>
+              <h3>Please provide your feedback here!</h3>
               <form action="#" method="post">
-                  <label for="feedback">Pesan Anda:</label>
-                  <input type="email" style="margin-bottom: 5px;" placeholder="Masukkan Email Anda">
-                  <textarea id="feedback" name="feedback" rows="4" placeholder="Tulis feedback Anda di sini"></textarea>
+                  <input type="email" style="margin-bottom: 5px;" id = "email-user" placeholder="Add your email...">
+                  <textarea id="feedback" name="feedback" rows="4" id ="message-user" placeholder="Add your feedback here..."></textarea>
                   <br>
-                  <button type="submit">Kirim Feedback</button>
+                  <button onclick="sendFeedback()">Send Feedback</button>
               </form>
           </div>
       </div> 

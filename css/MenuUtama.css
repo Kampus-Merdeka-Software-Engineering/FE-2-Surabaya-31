@@ -194,30 +194,30 @@ a {
   cursor: pointer;
   border-radius: 15px;
 }
-  .menu .home.active,
-  .menu .newsid.active,
-  .menu .newsen.active {
-    background-color: #000;
-    color: #fff;
-}
-  .menu .cwu.active,
-  .menu .ot.active {
-    background-color: #4a8886;
-    color: #fff;
-  }
-  
-  .menu .home:hover,
-  .menu .newsid:hover,
-  .menu .newsen:hover{
-    background-color: #000;
-    color: #fff;
-  }
-  .menu .cwu:hover,
-  .menu .ot:hover {
-    background-color: #4a8886;
-    color: #fff;
-  }
 
+.menu .home.active,
+.menu .newsid.active,
+.menu .newsen.active {
+  background-color: #000;
+  color: #fff;
+}
+.menu .cwu.active,
+.menu .ot.active {
+  background-color: #4a8886;
+  color: #fff;
+}
+
+.menu .home:hover,
+.menu .newsid:hover,
+.menu .newsen:hover{
+  background-color: #000;
+  color: #fff;
+}
+.menu .cwu:hover,
+.menu .ot:hover {
+  background-color: #4a8886;
+  color: #fff;
+}
 
 /* main */
 /* main */
